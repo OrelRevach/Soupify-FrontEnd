@@ -78,7 +78,7 @@ $> google-chrome http://localhost:8080/
 - `vuex` - state management
 - `vuetify` - design component framework
 - `axios` - HTTP requests
-- other dependencies you can see in [`package.json`](https://github.com/OrelRevach/Soupify-FrontEnd/blob/main/package.json)
+- other dependencies you can see in [`package.json`](https://github.com/OrelRevach/Soupify-FrontEnd/blob/master/package.json)
 
 ## 📜 Scripts:
 
