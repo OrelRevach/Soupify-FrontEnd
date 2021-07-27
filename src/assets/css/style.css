@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+    background: rgb(66,66,66);
+}
+
+.v-application {
+    background: url('../background.jpg') no-repeat center center fixed !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+span {
+    font-family: 'Montserrat SemiBold', sans-serif;
+}
+
+#profile:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.disable-events {
+    pointer-events: none
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.single-line {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card h1,
+.card h2,
+.card h3,
+.card span:not(.v-btn__content):not(.text--white) {
+    color: var(--v-text-base) !important;
+}
+
+.card .v-toolbar__content {
+    padding: 0;
+}
+
+.v-tooltip__content span {
+    color: white !important;
+}
